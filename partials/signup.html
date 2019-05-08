@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Titre de l'article - Lysander's blog</title>
+</head>
+<body class="no-js">
+	<header class="header" id="header">
+		<h1 class="header__title"><a href="#" class="header__link">Lysander's chess blog</a></h1>
+		<nav aria-labelledby="main-nav" class="navigation">
+			<h2 id="main-nav" role="heading" aria-level="2" class="navigation__header">
+				Navigation principale
+			</h2>
+			<ul class="navigation__list">
+				<li class="navigation__item"><a href="#" class="navigation__link">Accueil</a></li>
+				<li class="navigation__item"><a href="./partials/article.html" class="navigation__link">Tournois</a></li>
+				<li class="navigation__item"><a href="#" class="navigation__link">En live</a></li>
+				<li class="navigation__item"><a href="#" class="navigation__link">Tutos</a></li>
+				<li class="navigation__item"><a href="#" class="navigation__link">Fouiller</a></li>
+				<li class="navigation__item"><a href="#" class="navigation__link--connexion">Se connecter</a></li>
+				<li class="navigation__item"><a href="#" class="navigation__link--signup">Créer un compte</a></li>
+			</ul>
+		</nav>
+		<div class="search">			
+			<label for="site-search" class="search__label">Rechercher sur le site&nbsp;:</label>
+			<input type="search" id="site-search" name="search" aria-label="Search through site content" class="search__input" placeholder="rechercher">
+			<button class="search__btn">Rechercher</button>
+		</div>
+	</header>
+	<main role="main">
+		<form action="index.html" method="post" class="signup">
+			<label for="name" class="signup__label">Nom&nbsp;:</label>
+			<input type="text" class="signup__input" id="name">
+			<label for="firstname" class="signup__label">Prénom&nbsp;:</label>
+			<input type="text" class="signup__input" id="firstname">
+			<label for="mail" class="signup__label">Adresse mail&nbsp;:</label>
+			<input type="email" class="signup__input" id="mail">
+			<label for="password" class="signup__label">Mot de passe&nbsp;:</label>
+			<input type="password" class="signup__input" id="password">
+			<label for="Password-verif" class="signup__label">Réécrire le mot de passe&nbsp;:</label>
+			<input type="password" class="signup__input" id="Password-verif">
+			<input type="submit" class="signup__input" value="Créer un compte">
+		</form>
+	</main>
+	<footer>
+		<a href="#header" title="Retourner au début de la page">Retour au début de la page</a>
+		<p class="copy">&copy; Copyright <a href="http://lysanderhans.com">Lysander Hans</a></p>
+	</footer>
+</body>
+</html>

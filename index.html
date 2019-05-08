@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Accueil - Lysander's blog</title>
+	<link rel="stylesheet" href="./dist/bundle.css">
+</head>
+<body class="no-js">
+	<header class="header" id="header">
+		<h1 class="header__title"><a href="#" class="header__link">Accueil</a></h1>
+		<nav aria-labelledby="main-nav" class="navigation">
+			<h2 id="main-nav" role="heading" aria-level="2" class="navigation__header">
+				Navigation principale
+			</h2>
+			<ul class="navigation__list">
+				<li class="navigation__item"><a href="#" class="navigation__link">Accueil</a></li>
+				<li class="navigation__item"><a href="./partials/article.html" class="navigation__link">Tournois</a></li>
+				<li class="navigation__item"><a href="#" class="navigation__link">En live</a></li>
+				<li class="navigation__item"><a href="#" class="navigation__link">Tutos</a></li>
+				<li class="navigation__item"><a href="#" class="navigation__link">Fouiller</a></li>
+				<li class="navigation__item"><a href="#" class="navigation__link navigation__link--connexion">Se connecter</a></li>
+				<li class="navigation__item"><a href="#" class="navigation__link navigation__link--signup">Créer un compte</a></li>
+			</ul>
+		</nav>
+		<div class="search">			
+			<label for="site-search" class="search__label">Rechercher sur le site&nbsp;:</label>
+			<input type="search" id="site-search" name="search" aria-label="Search through site content" class="search__input" placeholder="rechercher">
+			<button class="search__btn">Search</button>
+		</div>
+	</header>
+	<main role="main">
+		<section aria-labelledby="articles" class="articles">
+			<h2 id="articles" role="heading" aria-level="2" class="articles__header">
+				Les derniers articles
+			</h2>
+			<!-- Boucle pour avoir le premier article -->
+			<article aria-labelledby="todo" class="main-article-preview">
+				<h3 id="todo" role="heading" aria-level="3" class="main-article-preview__header">
+					Grenke Classic ronde 3: Anand s'en sort in extremis, Svidler et Caruana gagnent!
+				</h3>
+				<img src="https://placezombie.com/300x200" alt="Image d'example">
+				<p>Écrit le <time datetime="c">21/04/19</time> par User X</p>
+				<p class="article__content">Une journée très excitante, hier à Karlsruhe. Svidler rejoint Carlsen en tête, après sa victoire contre Meier. Le Norvégien obtint une position de rêve dès l'ouverture contre Anand, sans parvenir toutefois à faire craquer l'Indien. MVL prit des risques énormes contre Naiditsch, mais dut se contenter de la nulle. Keymer encaisse contre Caruana sa troisième défaite d'affilée. | Photo: Georgios Souleidis | Paul Kohler pour l'adaptation française.</p>
+				<a href="#">Lire plus <span class="sro">sur Grenke Classic ronde 3: Anand s'en sort in extremis, Svidler et Caruana gagnent!</span></a>
+				<div class="tags">
+					<ul class="tags__list">
+						<li class="tags__item"><a href="#" class="tags__link">Grenke Classic</a></li>
+						<li class="tags__item"><a href="#" class="tags__link">Caruana</a></li>
+						<li class="tags__item"><a href="#" class="tags__link">Grandmasters</a></li>
+					</ul>
+				</div>
+			</article>
+			<!-- Boucle pour avoir 12 articles -->
+			<article aria-labelledby="todo" class="article-preview">
+				<h3 id=":todo" role="heading" aria-level="3" class="article-preview__header">
+					Championnat de la Belgique d'échecs 2019
+				</h3>
+				<img src="https://placezombie.com/300x200" alt="Image d'example">
+				<p>Écrit le <time datetime="c">21/04/19</time> par User X</p>
+				<p class="article__content">96 francophones dont 15 filles étaient présents toute la semaine à Blankenberge parmi 395 enfants participants au championnat de Belgique d'échecs, a précisé Laurent Wéry, responsable Jeunesse pour la Fédération Echiquéenne francophone de Belgique( FEFB). De nouvelles mesures de la ministre de l'Education de la Fédération Wallonie-Bruxelles Marie-Martine Schyns visent à promouvoir le jeu d'échecs comme outil pédagogique dans les écoles.</p>
+				<a href="#">Lire plus <span class="sro">sur Championnat de la Belgique d'échecs 2019</span></a>
+				<div class="tags">
+					<ul class="tags__list">
+						<li class="tags__item"><a href="#" class="tags__link">BJK</a></li>
+						<li class="tags__item"><a href="#" class="tags__link">-20 ans</a></li>
+						<li class="tags__item"><a href="#" class="tags__link">Gagnants</a></li>
+					</ul>
+				</div>
+			</article>
+		</section>
+		<aside aria-labelledby="aside" class="aside">
+			<h2 id="aside" role="heading" aria-level="2" class="aside__header">
+				Réseaux sociaux
+			</h2>
+			<div class="socials">
+				<ul class="socials__list">
+					<li class="socials__list-item"><a href="#" class="socials__link">Facebook<i class="fab fa-facebook-square"></i></a></li>
+					<li class="socials__list-item"><a href="#" class="socials__link">LinkedIn</a></li>
+					<li class="socials__list-item"><a href="#" class="socials__link">Instagram</a></li>
+					<li class="socials__list-item"><a href="#" class="socials__link">Github</a></li>
+					<li class="socials__list-item"><a href="#" class="socials__link">CodePen</a></li>
+				</ul>
+			</div>
+		</aside>
+	</main>
+	<footer>
+		<a href="#header" title="Retourner au début de la page">Retour au début de la page</a>
+		<p class="copy">&copy; Copyright <a href="http://lysanderhans.com">Lysander Hans</a></p>
+	</footer>
+	<script src="./dist/bundle.js"></script>
+</body>
+</html>

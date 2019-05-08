@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    align-items: center;
+    &__title {
+        width: 5%;
+        height: 2em;
+    }
+    &__link {
+        text-indent: -9999em;
+        width: 0;
+        height: 0;
+        display: inline-block;
+    }
+}
+.navigation{
+    &__list {
+        display: flex;
+    }
+    &__header {
+        text-indent: -9999em;
+        width: 0;
+        height: 0;
+        margin: 0;
+    }
+    &__link {
+        padding: 1em .6em;
+        text-decoration: none;
+        color: #2c2c2c;
+    }
+}

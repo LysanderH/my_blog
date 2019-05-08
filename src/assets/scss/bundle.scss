@@ -1,0 +1,26 @@
+@import 'reset';
+@import "../../../node_modules/font-awesome/scss/font-awesome";
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.sro {
+  text-indent: -9999em;
+  display: block;
+  width: 0;
+  height: 0;
+}
+@import 'header';
+@import "main";
+
+/*
+ * footer
+ */
+footer {
+  display: flex;
+  margin-top: 3em;
+  align-items: center;
+  > p {margin-left: auto}
+}

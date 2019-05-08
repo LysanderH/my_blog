@@ -1,0 +1,63 @@
+
+aside {
+  width: 30%;
+}
+
+.articles {
+  width: 65%;
+  margin-right: 5%;
+}
+
+main {
+  display: flex;
+}
+
+body {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin: 1.5em 0;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin: 1em 0;
+}
+
+img {
+  float: left;
+  margin-right: 1%;
+}
+
+article:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+.tags {
+  display: inline-block;
+
+  &__list {
+    display: flex;
+    margin-top: 1em;
+  }
+  &__link {
+    margin: .3em .5em;
+    border-radius: 4px;
+    padding: .3em .5em;
+    background-color: blue;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+p {
+  line-height: 1.5;
+}
+article>a {
+  display: inline-block;
+  float: right;
+}

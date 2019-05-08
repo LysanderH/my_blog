@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Titre de l'article - Lysander's blog</title>
+</head>
+<body class="no-js">
+	<header class="header" id="header">
+		<h1 class="header__title"><a href="#" class="header__link">Lysander's chess blog</a></h1>
+		<nav aria-labelledby="main-nav" class="navigation">
+			<h2 id="main-nav" role="heading" aria-level="2" class="navigation__header">
+				Navigation principale
+			</h2>
+			<ul class="navigation__list">
+				<li class="navigation__item"><a href="#" class="navigation__link">Accueil</a></li>
+				<li class="navigation__item"><a href="./partials/article.html" class="navigation__link">Tournois</a></li>
+				<li class="navigation__item"><a href="#" class="navigation__link">En live</a></li>
+				<li class="navigation__item"><a href="#" class="navigation__link">Tutos</a></li>
+				<li class="navigation__item"><a href="#" class="navigation__link">Fouiller</a></li>
+				<li class="navigation__item"><a href="#" class="navigation__link--connexion">Se connecter</a></li>
+				<li class="navigation__item"><a href="#" class="navigation__link--signup">Créer un compte</a></li>
+			</ul>
+		</nav>
+		<div class="search">			
+			<label for="site-search" class="search__label">Rechercher sur le site&nbsp;:</label>
+			<input type="search" id="site-search" name="search" aria-label="Search through site content" class="search__input" placeholder="rechercher">
+			<button class="search__btn">Rechercher</button>
+		</div>
+	</header>
+	<main role="main" aria-labelledby="main__title">
+		<span id="main__title" class="main__title">Contenu principal de la page</span>
+		<article aria-labelledby="todo" class="article">
+			<h2 id="todo" role="heading" aria-level="2" class="article__header">
+				Championnat de la jeunesse de la Belgique d'échecs 2019
+			</h2>
+			<p>Écrit le <time datetime="c">21/04/19</time> par User X</p>
+			<img src="https://placezombie.com/800x500" alt="Image d'example">
+			<p class="article__content">
+			Eloïse Jortay est championne de Belgique d'échecs en catégorie filles moins de 8 ans. Trois autres francophones se sont distingués dimanche à Blankenberge au championnat de Belgique d'échecs en tant que vice-champions: Rubben Micciche (garçons moins de 10 ans), Laurent Huynh (garçons moins de 14 ans) et Nicola Capone (garçons moins de 18 ans).</p>
+			<p class="article__content">96 francophones dont 15 filles étaient présents toute la semaine à Blankenberge parmi 395 enfants participants au championnat de Belgique d'échecs, a précisé Laurent Wéry, responsable Jeunesse pour la Fédération Echiquéenne francophone de Belgique( FEFB). De nouvelles mesures de la ministre de l'Education de la Fédération Wallonie-Bruxelles Marie-Martine Schyns visent à promouvoir le jeu d'échecs comme outil pédagogique dans les écoles.</p>
+			<p class="article__content">"La distribution d'échiquiers dans 68 écoles l'an passé et la demande d'inscrire au moins une équipe par école a largement augmenté le nombre d'inscrits" au tournoi d'échecs interscolaire organisé en Fédération Wallonie-Bruxelles en début d'année, expliquait Laurent Wéry, responsable Jeunesse pour la Fédération Echiquéenne francophone de Belgique( FEFB). "Les professeurs proposent aux jeunes de s'inscrire aux compétitions. Aujourd'hui, on dépasse les 120 écoles avec une activité échecs, contre une cinquantaine avant les mesures de promotion de la Fédération Wallonie-Bruxelles".</p>
+			<div class="tags">
+				<span class="tags__title">Sur le même sujet&nbsp;:</span>
+				<ul class="tags__list">
+					<li class="tags__item"><a href="#" class="tags__link">BJK</a></li>
+					<li class="tags__item"><a href="#" class="tags__link">-20 ans</a></li>
+					<li class="tags__item"><a href="#" class="tags__link">Gagnants</a></li>
+				</ul>
+			</div>
+		</article>
+		<section aria-labelledby="comments" class="comments">
+			<h2 id="comments" role="heading" aria-level="2" class="comments__header">
+				Commentaires
+			</h2>
+			<section aria-labelledby="comment" class="comment">
+				<h3 id="comment" role="heading" aria-level="3" class="comment__header">
+					comment
+				</h3>
+				<div class="user">
+					<img src="https://placezombie.com/50x50" alt="Foto de profil de User X" class="user__img">
+					<span class="user__name">User X</span>
+				</div>
+				<div class="comment__main">
+					<p class="comment__content">Wowwww super, il faut continuer ça ...</p>
+				</div>
+			</section>
+			<form action="" action="post">
+				<label for="comment">Contenu de votre commentaire</label>
+				<input type="text" placeholder="Votre commentaire">
+				<input type="submit" value="Poster ce commantaire">
+			</form>
+		</section>
+	</main>
+	<footer role="footer">
+		<a href="#header" title="Retourner au début de la page">Retour au début de la page</a>
+		<p class="copy">&copy;&nbsp;Copyright <a href="http://lysanderhans.com">Lysander Hans</a></p>
+	</footer>
+</body>
+</html>
